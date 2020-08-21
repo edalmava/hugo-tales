@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "es-co"
+title = "Mi nuevo Sitio en Hugo"
+theme = "tale"
+defaultContentLanguage = "es"
+
+[Author]
+    name = "Edalmava"
+
+[menu]
+  [[menu.main]]
+	identifier = "contacto"
+	name = "Contacto"
+	title = "Contacto"
+	url = "/contacto/"
+	weight = 0
+  [[menu.main]]
+	identifier = "posts"
+	name = "Posts"
+	title = "Posts"
+	url = "/post/"
+	weight = 0
